@@ -1,4 +1,7 @@
-# Question 2.7 
+# Question 2.7
+A) git log -n 3 → Displays only the most recent three commits in full detail
+B) git log --oneline → Compact view showing 7-character commit hashes and one-line summaries
+C) git log --oneline --graph --all → Graphical representation of branch forks, merges, and commit topology
 
 # Section 3: Remote Repositories & GitHub Integration
   
