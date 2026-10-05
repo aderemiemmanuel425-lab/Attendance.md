@@ -89,6 +89,7 @@ int c = a+b;     14           35           35
 
 ##  Question 8 — Evaluate the Expressions
 
+``` java 
 a.
 
 x + y = 11
@@ -113,6 +114,7 @@ f.
 
 (x + y) * 2 = 14
 
+```
 
 
 
@@ -120,16 +122,55 @@ f.
 
 a. What is the final value of score? 15
 
-b. Why does the second statement make sense in programming even though the mathematical equation 
+b. Why does the second statement make sense in programming even though the mathematical equation . 
+  it make sense in programming because it been assign.
 
-c. Describe what the assignment operator = means in Java.
+c. Describe what the assignment operator = means in Java. it is use to assign the varable.
 
 
 # Section D — Data Types
 
 ## Question 10 — Choosing Appropriate Types
 
+A person’s age . int 
+
+b. A person’s full name . string 
+
+c. Whether a student has paid school fees . boolen
+
+d. The price of a product such as 3500.75 . float
+
+e. The number of people in Nigeria . int
+
+f. A student’s grade represented by one character, such as A . char(character)
+
+g. The distance between two cities measured in kilometres and containing decimal values . float
+
+h. Whether an application is currently running
+
+i. The number of books in a library . int
+
+j. A very large whole number that might exceed the normal range of int . long
+
+
+
 ## Question 11 — Find the Type Problems
+
+1. State whether it is valid Java.  it invaild
+
+2. If it is invalid, explain the problem.  it are some mistake with the code 
+
+3. Rewrite it correctly. 
+``` java 
+   int age = 24;
+    boolean loggedIn = true;
+    char grade = 'A';
+    double price = 499.99;
+    String name = "Grace";
+}
+```
+
+
 
 # Section E — Overflow and Reasoning
 
@@ -168,16 +209,68 @@ Explain why your chosen type is safer for this particular value.
  
 ## Question 15 — Student Information Program
 
-Name ; Joy Samuel
-Age ; 18
+```Java
+Name: Joy Samuel
+Age: 18
 Gender ; F
-GPA ; 4.25
-Enrolled ; No
-
+GPA: 4.25
+Enrolled: No
+```
 ## Question 16 — Simple Purchase Calculation
 
-int priceofonebook ; 3500
-        int numberOfBooks; 4Books
-      int totalPrice; 14000
+```Java
+int priceOfOneBook = 3500;
+int numberOfBooks = 4;
+int totalPrice = priceOfOneBook * numberOfBooks;
 
+  System.out.println("Total numberOfBooks is: " + totalPrice);
+```
+## Question 17 — Changing Values
+``` java 
+public class BalanceCalculator {
+            public static void main(String[] args) {
+                // Initialize the account balance
+                double accountBalance = 50000.0;
 
+                // Add 15000 to the balance
+                accountBalance = accountBalance + 15000.0;
+
+                // Subtract 10000 from the new balance
+                accountBalance = accountBalance - 10000.0;
+
+                // Add 2500 to the new balance
+                accountBalance = accountBalance +
+                        2500.0;
+
+                // Print the final balance
+                System.out.println("The final balance is: " + accountBalance);
+```
+
+# Section G — Read, Think and Debug
+
+## Question 18 — Find the Errors
+
+1. The progremmer made some mistake when running the code like some letter was not corresponding to each other.
+
+2. correct it 
+``` java
+
+  public class StudentInfo {
+        public static void main(String[] args) {
+            int studentAge = 20;
+            String studentClass = "Java";
+            boolean isLearning = true;
+            double score1 = 85.5;
+            System.out.println(studentAge);
+        }
+    }
+}
+```
+
+## Question 19 — Read Before You Run
+
+a. it will print build successful
+
+b. it cause the code willbe wrong or perharps the computer will not be able to runit.
+
+c. it me that as a programmer pay attention to every detal in your code
