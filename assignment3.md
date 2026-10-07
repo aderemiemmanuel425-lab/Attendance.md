@@ -78,13 +78,15 @@ int class Student Count= 120;
 
 ## Question 7 — Follow the Variables
 
-
+``` java 
 
 Statement        a            b            c
 
 int a = 10;      10           20           35
 int b =  4;       5           15           35
 int c = a+b;     14           35           35
+
+```
 
 
 ##  Question 8 — Evaluate the Expressions
